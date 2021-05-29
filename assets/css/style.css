@@ -393,6 +393,13 @@ body {
     color: white;
 }
 
+.carousel-bullets {
+    margin: 0 10px !important;
+    background: #ffffff !important;
+    opacity: 0.5;
+    border: 1px solid #ffffff;
+}
+
 /* Products section */
 
 .hr-sect {
@@ -706,6 +713,7 @@ body {
     color: #e8e2d6;
     border-radius: 20px;
     width: 200px;
+    padding: 10px;
 }
 
 .load-more-button:hover {
@@ -771,6 +779,7 @@ h2 {
     align-items: center;
     color: white;
     font-family: Lato-Bold;
+    margin-bottom: 20px;
     
 }
   
@@ -1290,6 +1299,7 @@ input[type=number]::-webkit-outer-spin-button {
   font-size: 15px;
   font-family: Lato-Regular;
   outline: none;
+  vertical-align: sub;
 }
 
 /* Product details  */
